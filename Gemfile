@@ -5,6 +5,10 @@ gem'devise'
 gem'omniauth'
 gem'omniauth-twitter'
 gem'uuidtools'
+gem 'angular-js-rails', '>= 1.2.0rc1'
+gem 'ngmin-rails'
+gem 'bootstrap-sass-rails'
+gem 'zurb-foundation'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -28,7 +32,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
